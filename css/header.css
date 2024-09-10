@@ -1,57 +1,57 @@
 .header {
-    position: fixed;
-    top: 0;
-    width: 1380px;
-    height: 120px;
-    background-color: #f0f0f0;
-    padding: 40px 0;
-    z-index: 2;
-  }
-  
-  .navi {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .navi > li {
-    position: relative;
-    margin: 0 70px;
-  }
-  
-  .navi > li > a {
-    text-decoration: none;
-    color: #000;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 10px 15px;
-    display: block;
-  }
-  
-  .navi > li > a:hover {
-    color: #717171;
-  }
-  
-  .submenu {
-    display: none;
-    position: absolute;
-    list-style: none;
-    top: 100%;
-    min-width: 200px;
-  }
-  
-  .submenu > li > a {
-    font-size: 18px;
-    color: #000;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-  }
-  
-  .submenu > li > a:hover {
-    color: #717171;
-  }
-  
-  .navi > li:hover .submenu {
-    display: block;
-  }
+  position: fixed;
+  top: 0;
+  width: 1380px;
+  height: 120px;
+  background-color: #f0f0f0;
+  padding: 40px 0;
+  z-index: 2;
+}
+
+.navi {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navi > li {
+  position: relative;
+  margin: 0 70px;
+}
+
+.navi > li > a {
+  text-decoration: none;
+  color: #000;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: block;
+}
+
+.navi > li > a:hover {
+  color: #717171;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  list-style: none;
+  top: 100%;
+  min-width: 200px;
+}
+
+.submenu > li > a {
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.submenu > li > a:hover {
+  color: #717171;
+}
+
+.navi > li:hover .submenu {
+  display: block;
+}
