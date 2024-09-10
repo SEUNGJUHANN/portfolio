@@ -53,6 +53,30 @@
   margin-bottom: 16px;
 }
 
+.mg-card a .youtuve-icon-1 {
+  position: absolute;
+  width: 51px;
+  height: 31px;
+  left: 233px;
+  top: 400px;
+}
+
+.mg-card a .youtuve-icon-2 {
+  position: absolute;
+  width: 51px;
+  height: 31px;
+  left: 669px;
+  top: 400px;
+}
+
+.mg-card a .youtuve-icon-3 {
+  position: absolute;
+  width: 51px;
+  height: 31px;
+  left: 1105px;
+  top: 400px;
+}
+
 .mg-card-title {
   font-size: 24px;
   line-height: 1;
