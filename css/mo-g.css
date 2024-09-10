@@ -1,0 +1,85 @@
+#motion {
+    /* background-color: #cab1ab; */
+    text-align: center;
+  }
+  
+  .mg-title {
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .mg-sub {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .mg-card-slider {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 152px;
+  }
+  
+  /* .mg-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+    border-radius: 8px;
+  } */
+
+  .mg-card{
+    width: 336px;
+  height: 338px;
+  border-radius: 8px;
+  background-color: #dddddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  }
+
+  .mg-card img{
+    width: 304px;
+  height: 171px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-bottom: 16px;
+  }
+
+  .mg-card-title{
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mg-tags {
+    display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  align-self: flex-start;
+  }
+
+  .mg-tag{
+    font-size: 12px;
+    background-color: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 8px;
+  }
+
+  .mg-date {
+    font-size: 16px;
+    color: #9c9c9c;
+    align-self: flex-start;
+  }

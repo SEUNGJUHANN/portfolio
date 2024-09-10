@@ -1,0 +1,85 @@
+#home {
+    /* background-color: #f3f3f3; */
+    text-align: center;
+  }
+  
+  .pro-img {
+    margin-bottom: 120px; /* 프로필 이미지와 아래 내용 사이의 간격 */
+  }
+  
+  .pro-img img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15px;
+  }
+  
+  .pro-img h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .pro-img span{
+    font-size: 16px;
+  }
+  
+  .pro-img p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  .pro-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+  }
+  
+  .pro-info .info {
+    text-align: left;
+  }
+  
+  .pro-info i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto 20px auto;
+  }
+  
+  .pro-info h3 {
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .pro-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pro-info ul li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .pro-info ul li span {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .tools {
+    display: grid;
+    grid-template-columns: repeat(4, 55px);
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .tools img {
+    width: 55px;
+    height: 55px;
+  }
+  
