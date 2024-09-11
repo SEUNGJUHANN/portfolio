@@ -6,6 +6,7 @@
   html,
   body {
     scroll-behavior: smooth;
+    background-color: #f4f4f4;
   }
   ul,
   li {
@@ -47,4 +48,12 @@
     height: 100%;
     /* background-color: #ddd; */
     padding-top: 75px;
+  }
+
+  .box-1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: #ddd; */
+    padding-top: 35px;
   }
