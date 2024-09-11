@@ -56,31 +56,31 @@
 .mg-card a .youtuve-icon-1 {
   position: absolute;
   width: 51px;
-  height: 31px;
-  left: 233px;
-  top: 400px;
+  height: 36px;
+  left: 230px;
+  top: 413px;
 }
 
 .mg-card a .youtuve-icon-2 {
   position: absolute;
   width: 51px;
-  height: 31px;
-  left: 669px;
-  top: 400px;
+  height: 36px;
+  left: 666px;
+  top: 413px;
 }
 
 .mg-card a .youtuve-icon-3 {
   position: absolute;
   width: 51px;
-  height: 31px;
-  left: 1105px;
-  top: 400px;
+  height: 36px;
+  left: 1102px;
+  top: 413px;
 }
 
 .mg-card-title {
   font-size: 24px;
   line-height: 1;
-  margin-bottom: 12px;
+  margin-bottom: 7px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -91,7 +91,6 @@
 .mg-tags {
   display: flex;
   gap: 12px;
-  margin-bottom: 12px;
   align-self: flex-start;
 }
 
