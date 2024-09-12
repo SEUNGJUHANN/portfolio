@@ -16,9 +16,21 @@
     font-size: 18px;
     margin-bottom: 0;
   }
+.airdrop-main{
+    margin-top: 50px;
+}
 
   .airdrop1{
-    display: flex;
+    display: flex;flex-wrap: wrap;
+    justify-content: center;
+    gap: 65px;
+    margin-bottom: 40px;
+  }
+
+  .airdrop2{
+    display: flex;flex-wrap: wrap;
+    justify-content: center;
+    gap: 65px;
   }
 
 .airdrop-card {
@@ -38,7 +50,7 @@
 
 .airdrop-header h2 {
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     color: #333;
 }
 

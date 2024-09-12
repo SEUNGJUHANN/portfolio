@@ -1,3 +1,5 @@
+[포트폴리오 바로가기](https://portfolio-seungju.vercel.app/)
+
 <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=shark&color=auto&height=120&text=HI%20I'm%20Seung%20Ju&animation=blink&fontColor=000000&fontSize=60" />
     </div>
