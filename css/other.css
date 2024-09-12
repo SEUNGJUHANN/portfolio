@@ -2,12 +2,14 @@
 #other {
     /* background-color: #cab1ab; */
     text-align: center;
+    margin: 0;
   }
 
   .ot-title {
     font-size: 46px;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-top: -10px;
   }
   
   .ot-sub {
@@ -39,31 +41,31 @@
   }
   .tv-container {
     position: relative;
-    width: 225px; /* TV 이미지의 실제 너비 */
-    height: 297px; /* TV 이미지의 실제 높이 */
+    width: 225px;
+    height: 297px;
   }
-  
-  /* TV 이미지 스타일 */
-  .tv-image {
+
+  .tv-container .tv-image{
     width: 100%;
     height: auto;
     display: block;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-  }
-  
-  /* TV 화면 안의 콘텐츠 스타일 */
-  .tv-content {
-    position: absolute;
-    top: 21.9%; /* 이미지에서 화면의 위치에 맞게 조정 */
-    left: 0%; /* 이미지에서 화면의 위치에 맞게 조정 */
-    width: 225px; /* TV 화면 영역에 맞게 너비 설정 */
-    height: 171px; /* TV 화면 영역에 맞게 높이 설정 */
-    color: black; /* 텍스트 색상 */
-    background-color: #f5f5f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-  }
+  }/**/
+
+.tv-container .tv-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tv-container .tv-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
